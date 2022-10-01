@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="es">
+<head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+   <title>Romulo's den</title>
+   <link rel="icon" type="image/x-icon" href="assets/Logo.png">
+   <style>
+   p {color:white;}
+   p.basico {font-size:125%;}
+   p.basicomaior {font-size:175%;}
+   p.basicomedio {font-size:150%;}
+   body {
+   background-color:#1E2749;
+   }
+   div.corporeal {text-align: center;}
+   </style>
+</head>
+<body>
+	<!-- copiei do bootstrap -->
+	<audio id="sound1" src="assets/honk.wav" preload="auto"></audio>
+   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+	<!-- copiei do site do bootstrap -->
+	<nav class="navbar navbar-expand-sm navbar-light" style="background-color:#30343F">
+		<a onclick="document.getElementById('sound1').play();" class="navbar-brand" href="#">
+			<img width=48 height=48 src="assets/Logo.png">
+		</a>
+		<div class="collapse navbar-collapse" id="navbarNav">
+			<ul class="navbar-nav">
+				<li class="nav-item">
+					<a class="nav-link" style="color:white" href="#comienzo">Começo<span class="sr-only">(current)</span></a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" style="color:white" href="#creaciones">Criações</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" style="color:white" href="#trabajos">Trabalhos atuais</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" style="color:white" href="creditos.html">Créditos</a>
+			</ul>
+		</div>
+	</nav>
+	<!-- Isso aqui é o corpo real da página -->
+	<div class="corporeal">
+	<div style="background-image:linear-gradient(#273469, #1E2749);" id="comienzo">
+		<img width=10% height=10% src="assets/LogoBIG.png">
+		<h1 style=";color:white">Romulo's Den</h1>
+		<!-- copiei do w3 -->
+		<p style="font-size:200%;color:white">Meu nome é Rômulo Pedro Thomsen, e eu sou um programador experiente com Python e C++, eu também possuo algum conhecimento PHP, mesmo que não seja extenso. Eu também sou um compositor iniciante.</p>
+		<p class="basicomaior">Eu nunca trabalhei profissionalmente em nenhuma das áreas que tenho conhecimento, mas sim como hobby, então fique confortável, e vamos descendo e vendo o que consegui fazer ao decorrer dos anos!</p>
+	</div>
+	<div id="creaciones" style="background-color:#30343F;">
+		<br>
+		<p class="basicomaior">Conheça meu primeiro jogo!</p>
+		<a href="https://gamejolt.com/games/PRSPXL/420837"><img src="assets/persthumb.webp"></a>
+		<br><br><br><br>
+		<p class="basicomedio">Meu primeiro jogo, Perspexel, foi disponibilizado ao público entre o final de 2020 e o começo de 2021, e está disponível tanto para Windows quanto Linux.</p>
+		<br>
+		<p class="basico">Perspexel é um jogo sandbox simples com multijogador online para 16 pessoas em rede LAN ou através da Internet. O jogo foi feito na Godot engine como meu primeiro experimento para tentar criar algo que funcionasse, e para que eu aprendesse como usar o motor. Você pode jogar Perspexel clicando na thumbnail acima.</p>
+		<br>
+		<p class="basico">Como um bônus também, fique com esse remix de "Tintin on the moon" de Jeroen Tel, eu fiz esse remix no LMMS usando a fonte sonora GenesisSF, só não esqueça de certificar que seu volume não esteja muito alto!</p>
+		<audio controls src="assets/Tintinonthemoon.ogg"></audio>
+		<p class="basico">Legal, não? Todavia minha fraqueza é com compor peças originais, mas nada que um pouco de prática não resolva.</p>
+		<br>
+	</div>
+	<div style="background-image:linear-gradient(#1E2749, #273469);" id="trabajos">
+		<br>
+		<p class="basicomaior">Conheça meu próximo projeto!</p>
+		<img width=50% height=50% src="assets/TSAB.png">
+		<br>
+		<p class="basicomedio">Atualmente tenho um projeto chamado "Through Space and Back", que é um jogo multijogador 8v8 onde companhias futuristas lutam por domínio espacial, lutando tanto uns com os outros quanto com o jogo em si colocando os jogadores em catástrofes. O projeto atualmente se encontra em estágios iniciais ainda.</p>
+		<br><br>
+		<p class="basicomedio">Eu acredito que um dia todas essas habilidades eu estou aprendendo poderei talvez contar uma história que inspire alguém a também fazer coisas incríveis!</p>
+	</div>
+	</div>
+	<p>Rômulo Pedro Thomsen, 2022</p>
+	<a href="#"><p>Clique aqui para voltar ao topo!</p>
+</body>
+</html>
